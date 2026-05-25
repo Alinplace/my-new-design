@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Todoshi Minecraft Shop</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header>
+		<h1>TODOSHI MINECRAFT SHOP</h1>
+		<p>Ен мыкты дофаминдык товарлар тек бызде, бро!</p>
+	</header>
+
+	<main>
+		<h2>ХИТ ТОВАРЛАР:</h2>
+
+		<div class="shop-container">
+			<h3>Незарит Алмаз Кылыш</h3>
+			<p>Багасы: 64 Изумруд</p>
+			<button onclick="buyProduct('Незарит Алмаз Кылыш')">Себетке салу (Купить)</button>
+		</div>
+
+		<div class="product-card">
+			<h3>Су жана Профи Очки (-4.25)</h3>
+			<p>Багасы: 1000 Редстоун</p>
+			<button onclick="buyProduct('Профи Очки (-4.25)')">Себетке салу (Купить)</button>
+		</div>
+	</main>
+
+	<script>
+		
+		function buyProduct(productName) {
+			alert("Еба-а-а, бро! Сен кадыгыдей [" + productName + "]сатып алдын! Товар сундукка тусты.");
+		}
+	</script>
+</body>
+</html>
